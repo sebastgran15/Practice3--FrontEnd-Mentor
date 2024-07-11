@@ -58,6 +58,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     padding: 2rem;
+    padding-right: 3rem;
 }
 
 .info--text1 {
@@ -92,7 +93,7 @@ body {
 }
 
 .info--buy__price1 {
-    font-size: 3rem;
+    font-size: 2rem;
     color: var(--Dark_cyan);
     font-weight: bold;
     font-family: var(--fuente2);
@@ -106,20 +107,20 @@ body {
     font-weight: 600;
     color: var(--Dark_grayish_blue);
     text-decoration: line-through;
-    margin: 1rem 0;
-    font-size: 18px;
+    margin: 0.6rem;
+    font-size: 16px;
 }
 
 .info--buy__boton {
     width: 100%;
-    padding: 1.5rem;
+    padding: 1rem;
     border: none;
     border-radius: 10px;
     background-color: var(--Dark_cyan);
     color: var(--White);
     font-weight: 700;
     font-family: var(--fuente1);
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -152,21 +153,6 @@ body {
         background-size: cover;
         border-radius: 10px 0 0 10px;
         height: 100%;
-    }
-    .info{
-        padding-right: 3rem;
-    }
-
-    .info--buy__price1{
-        font-size: 2rem;
-    }
-    .info--buy__price2{
-        font-size: 16px;
-        margin: 0.6rem;
-    }
-    .info--buy__boton{
-        padding: 1rem;
-        font-size: 1rem;
     }
 }
 
